@@ -7,45 +7,45 @@ This project is a Learning Management System (LMS) built with React.js for the f
 
 ## Features
 
-- **User Management:**
+- *User Management:*
   - User registration and login functionality.
   - User profiles with the ability to update information.
 
-- **Course Management:**
+- *Course Management:*
   - Admin can add, edit, and manage courses.
   - Course details include name, instructor, description, etc.
   
-- **Assessment:**
+- *Assessment:*
   - Users can take assessments related to courses.
   - Admin can create and manage assessment questions.
 
-- **Progress Tracking:**
+- *Progress Tracking:*
   - Monitor user progress and completion status.
   - Visual representation of progress for users.
 
-- **Certificate Generation:**
+- *Certificate Generation:*
   - Automatic certificate generation upon course completion.
   - Personalized certificates with user details.
 
-- **Discussion Forum:**
+- *Discussion Forum:*
   - Course-specific discussion forums for users.
   - Interaction between users and instructors.
 
-- **Admin DashBoard:**
+- *Admin DashBoard:*
   - For course addition and assessment question addition.
   - tracking of students, coursees, and enrollments. 
 
 ## Technologies Used
 
-- **Frontend:**
+- *Frontend:*
   - React.js
   - Styled with CSS
 
-- **Backend:**
+- *Backend:*
   - Spring Boot
   - RESTful API architecture
 
-- **Database:**
+- *Database:*
   - MySQL
   - Seven tables: course, learning, progress, discussion, feedback, question, user, assessment
 
@@ -53,9 +53,9 @@ This project is a Learning Management System (LMS) built with React.js for the f
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/PATMESH/Learning-Management-System.git
-    ```
+    bash
+    git clone https://github.com/AnuPriyaPulagam/LMS_MAIN1
+    
 
 2. Navigate to the frontend and backend folders and follow their respective setup instructions.
 
@@ -77,75 +77,100 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 
 
 ## Site Images
-**Login:**
+*Login:*
 
-![Screenshot (84)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/5287bb3e-32b3-4d07-b430-30d9f0f8c511)
-
-
-
-**Register:**
-![Screenshot (85)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/7af66295-bac6-4af2-a415-d666ffc9fb00)
+![Image](https://github.com/user-attachments/assets/f4c3bf98-f928-4a17-b3a0-ac937ce5b2cf)
 
 
 
-**Courses:**
-![Screenshot (86)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/b466f521-29f6-4af3-a8dc-2449708b60c0)
+*Register:*
+![Image](https://github.com/user-attachments/assets/1e3eb1de-f2d5-49c8-b595-4dd042c01d01)
+
+Home page:
+![Image](https://github.com/user-attachments/assets/2b458d04-9aa2-4fcf-b56e-ca24f09c58a8)
+
+
+![Image](https://github.com/user-attachments/assets/8a2b6e85-003a-44b5-b905-04514a92b966)
+
+
+![Image](https://github.com/user-attachments/assets/5a64ebeb-38d9-4b57-8961-4dfc2456c475)
+
+
+*Courses:*
+![Image](https://github.com/user-attachments/assets/78c4e6cd-de61-448a-b0c3-35c125d54e30)
+
+
+![Image](https://github.com/user-attachments/assets/da1ad236-be46-4ddd-8998-33b0364a0015)
+
+*Profile:*
+![Image](https://github.com/user-attachments/assets/c1826423-d36b-4f3a-b418-8b5baec711a7)
+
+
+![Image](https://github.com/user-attachments/assets/dbe4efc2-4704-40a5-ba4f-370f3ddf7bf0)
+
+*Course learning:*
+![Image](https://github.com/user-attachments/assets/c773e868-eff6-4b3d-b733-fbb6d7a15711)
+
+
+![Image](https://github.com/user-attachments/assets/57994d4b-1ecc-46db-92a4-0688f08ce425)
 
 
 
-**Profile:**
-![Screenshot (87)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/707d3fa8-0462-4048-a740-c3f3e225c504)
-![Screenshot (88)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/0d4b22fe-01b0-4176-b03f-8ba780eb0589)
+
+
+*Learnings:*
+![Image](https://github.com/user-attachments/assets/effcb76b-6e27-47e3-bd9c-b2144635ec7f)
 
 
 
-**Learnings:**
-![Screenshot (89)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/7179e9bd-648d-4534-8495-6403a07e9482)
 
 
 
-**Course learning:**
-![Screenshot (90)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/c79f58d5-d5e0-4899-85cc-fe126fdc09c5)
-![Screenshot (91)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/79641a32-f261-433c-a183-7f262a121c9b)
+
+*Assessment:*
+![Image](https://github.com/user-attachments/assets/7eacdfe5-4147-4a88-bb99-3a60049624fd)
+
+
+![Image](https://github.com/user-attachments/assets/b71b0f99-7a38-4c6f-b037-716d82cee603)
+
+
+![Image](https://github.com/user-attachments/assets/d1bd2cea-ed68-4680-9fb9-f133894baa32)
+
+
+![Image](https://github.com/user-attachments/assets/fb361ff5-2bb3-4dae-b7d1-da62c34985f7)
+
+*Certificate:*
+![Image](https://github.com/user-attachments/assets/ca6099a8-61d3-4217-84ee-441f59c968f8)
 
 
 
-**Assessment:**
-![Screenshot (92)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/c6c2cd14-e3c3-4906-bfec-85054325542e)
+*Dashboard:*
+![Image](https://github.com/user-attachments/assets/fce4b831-b55d-4d93-9e32-5674d8f04c90)
+
+
+![Image](https://github.com/user-attachments/assets/db5094c3-c261-4898-b9e2-f69014c40b6b)
+
+
+![Image](https://github.com/user-attachments/assets/12502ad6-b776-4492-b02b-092c9aafa9fa)
 
 
 
-**Certificate:**
-![Screenshot (94)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/602071e3-f74c-4026-9d7c-fc1cc9aa4f58)
+*Add Course:*
+![Image](https://github.com/user-attachments/assets/de3b0adb-397d-457a-be8e-ea3a2ba5bd26)
 
 
 
-**Dashboard:**
-![Screenshot (95)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/ba3a9695-cde5-437d-b05c-2c1babb1eedc)
-![Screenshot (96)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/5383d0f6-edba-4cd3-8fb0-53ba2ca76b5c)
-![Screenshot (97)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/d02a3ed9-40a2-403e-ad4c-743986d3bb1a)
+*Edit Course:*
+
+![Image](https://github.com/user-attachments/assets/f93b2793-0a85-4180-bb65-a7c17af818a2)
 
 
 
-**Add Course:**
-![Screenshot (98)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/a57c4b2b-d8ca-4035-8153-2626298474e6)
+*Add Assessment Questions:*
+![Image](https://github.com/user-attachments/assets/e3a4ef4b-e4c0-4812-a6f4-a8eccb2aba7d)
 
 
 
-**Edit Course:**
-![Screenshot (99)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/4dddc1b2-435b-4a07-864d-eeb4a4d6b233)
 
-
-
-**Add Assessment Questions:**
-![Screenshot (100)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/91fd1e0a-b613-4814-a1b4-69827352919f)
-
-
-
-**Home page:**
-![Screenshot (80)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/8d67282c-0043-4ed6-ae9d-956489b27e55)
-![Screenshot (81)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/956f27e9-3552-4411-8ff5-d2cdc640c240)
-![Screenshot (82)](https://github.com/PATMESH/Learning-Management-System/assets/101879714/a6550a77-605c-46e9-b038-fd2b1949575b)
-=======
-
->>>>>>> 646b15cde5654b002d461ee88b345d8f1999f379
+# LMS_MAIN1
+>>>>>>> 576ce548182573ae6c750edd959270f77f8e3565
