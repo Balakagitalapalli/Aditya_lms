@@ -103,7 +103,7 @@ Home page:
 ![Image](https://github.com/user-attachments/assets/da1ad236-be46-4ddd-8998-33b0364a0015)
 
 *Profile:*
-![Image](https://github.com/user-attachments/assets/0e61b827-5e90-4442-9ec4-3199551a54ab)
+![Image](https://github.com/user-attachments/assets/e929a2d5-9b5b-446e-a378-86a6f859277e)
 
 
 ![Image](https://github.com/user-attachments/assets/dbe4efc2-4704-40a5-ba4f-370f3ddf7bf0)
