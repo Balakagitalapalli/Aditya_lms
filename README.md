@@ -140,8 +140,7 @@ Home page:
 ![Image](https://github.com/user-attachments/assets/fb361ff5-2bb3-4dae-b7d1-da62c34985f7)
 
 *Certificate:*
-![Image](https://github.com/user-attachments/assets/ca6099a8-61d3-4217-84ee-441f59c968f8)
-
+![Image](https://github.com/user-attachments/assets/0777281c-e28e-4bc2-858a-0c4f1f2cf38b)
 
 
 *Dashboard:*
