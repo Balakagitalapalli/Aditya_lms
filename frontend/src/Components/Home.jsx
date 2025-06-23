@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react"; // <--- Ensure useState and useEffect are imported
 import { useUserContext } from "./UserContext";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
@@ -23,10 +23,54 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router-dom";
 import Footer from "./header and footer/Footer";
+import signup2 from "./images/signup2.jpg"; // <--- Ensure this image is imported
 
 function Home() {
   const navigate = useNavigate();
   const authToken = localStorage.getItem("token");
+
+  // State to hold the current window width
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  // Effect to update windowWidth on resize
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener when component unmounts
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []); // Empty dependency array means this effect runs once on mount and cleans up on unmount
+
+  // Function to determine the height of the image section based on window width
+  const getImageSectionHeight = () => {
+    if (windowWidth <= 475) {
+      return '200px'; // Height for very small mobile screens
+    } else if (windowWidth <= 768) {
+      return '300px'; // Height for tablets and larger mobile screens
+    } else {
+      return '580px'; // Default height for desktop screens
+    }
+  };
+
+  // Inline style object for the image section
+  const imageSectionStyle = {
+    width: '100%', // Full width
+    height: getImageSectionHeight(), // Dynamic height based on screen size
+    backgroundImage: `url(${signup2})`, // Using the imported image as background
+    backgroundPosition: 'center', // Center the background image
+    backgroundSize: 'cover', // Make the background image cover the entire area
+    backgroundRepeat: 'no-repeat', // Prevent the image from repeating
+    display: 'flex', // Used for centering if there were content inside
+    justifyContent: 'center',
+    alignItems: 'center',
+  };
+
   return (
     <div>
       <Navbar page={"home"} />
@@ -161,24 +205,12 @@ function Home() {
             </div>
           </div>
         </section>
-        <section id="registration">
-          {!authToken ? (
-            <div className="form">
-              <h3>Create Free Account NOW!</h3>
-              <input type="text" placeholder="Name" name="" id="" />
-              <input type="text" placeholder="Email" name="" id="" />
-              <input type="password" placeholder="Password" name="" id="" />
-              <input type="number" placeholder="Phone Number" name="" id="" />
-              <div className="btn">
-                <a className="yellow" href="#">
-                  Submit Form
-                </a>
-              </div>
-            </div>
-          ) : (
-            <></>
-          )}
-        </section>
+        
+        {/* The div with inline responsive styles */}
+        <div style={imageSectionStyle}>
+          {/* This div will now display signup2.jpg as a responsive background */}
+        </div>
+
         <Footer />
       </div>
     </div>
